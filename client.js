@@ -27,4 +27,18 @@ $(document).ready(function (){
         return false;
     });
 
+    //strobe routine
+    var options={
+        id: "smpVideo",
+        src: "rtmp://ec2-54-243-23-255.compute-1.amazonaws.com/live/broadcast",
+        width: 480,
+        height: 362,
+        poster: "images/poster.png",
+        favorFlashOverHtml5Video: true,
+        streamType: 'live'
+    };
+
+    // Using StrobeMediaPlayback
+    var $video = $(".video_holder").strobemediaplayback(options);
+
 });

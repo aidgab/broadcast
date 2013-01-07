@@ -1,3 +1,12 @@
 #chatMsgHolder{
     margin-top: 40px;
 }
+
+#liveVideo{
+    margin: 0 auto;
+}
+
+.video_holder{
+    width: 640px;
+    height: 380px;
+}
