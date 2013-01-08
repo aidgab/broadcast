@@ -27,13 +27,13 @@ $(document).ready(function (){
         return false;
     });
 
-    //strobe routine
+    //Videoplayer setup
     var options={
         id: "smpVideo",
         src: "rtmp://ec2-54-243-23-255.compute-1.amazonaws.com/live/broadcast",
-        width: 480,
-        height: 362,
-        poster: "images/poster.png",
+        width: 685,
+        height: 386,
+        poster: "http://oregonstate.edu/registrar/mydegrees/sites/default/files/video-screenshot.jpg",
         favorFlashOverHtml5Video: true,
         streamType: 'live'
     };
